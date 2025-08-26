@@ -1,0 +1,51 @@
+.cell {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #999;
+  box-sizing: border-box;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #333;
+  font-weight: bold;
+}
+
+.input:focus {
+  background-color: #e0f7fa;
+  border-radius: 4px;
+}
+
+.darkCell {
+  background-color: #f0f0f0;
+}
+
+.lightCell {
+  background-color: #ffffff;
+}
+
+/* Strong borders for 3x3 blocks */
+.borderRightStrong {
+  border-right: 2px solid black;
+}
+
+.borderRightNormal {
+  border-right: 1px solid #999;
+}
+
+.borderBottomStrong {
+  border-bottom: 2px solid black;
+}
+
+.borderBottomNormal {
+  border-bottom: 1px solid #999;
+}

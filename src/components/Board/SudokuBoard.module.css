@@ -1,0 +1,41 @@
+.boardContainer {
+  display: inline-block;
+  border: 3px solid #70d375;
+  padding: 12px;
+  background-color: #b2f8ca;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.buttonGroup {
+  margin-top: 16px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+.row {
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontal centering */
+  justify-content: center; /* vertical centering */
+  min-height: 90vh; /* full viewport height */
+}
